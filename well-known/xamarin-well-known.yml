@@ -1,0 +1,18 @@
+generated: '2026-07-21'
+method: searched
+host: https://xamarin.com
+notes: >-
+  xamarin.com blanket-301s every path (including /.well-known/*) to
+  https://dotnet.microsoft.com/apps/xamarin — no well-known discovery
+  surface exists on the domain. Absence recorded as valid probe data.
+documents:
+  - path: /.well-known/security.txt
+    status: 301
+  - path: /.well-known/openid-configuration
+    status: 301
+  - path: /.well-known/oauth-authorization-server
+    status: 301
+  - path: /.well-known/api-catalog
+    status: 301
+  - path: /.well-known/ai-plugin.json
+    status: 301

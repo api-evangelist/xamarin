@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: searched
+source: https://dotnet.microsoft.com/en-us/platform/support/policy/xamarin
+status: retired
+end_of_support: '2024-05-01'
+deprecation:
+  policy_url: https://dotnet.microsoft.com/en-us/platform/support/policy/xamarin
+  sunset_header: false
+  notes: >-
+    Microsoft ended support for all Xamarin SDKs (Xamarin.Android,
+    Xamarin.iOS, Xamarin.Mac, Xamarin.Forms) on May 1, 2024. Final
+    supported versions: Xamarin.Android 13.2.2.0 (API 34),
+    Xamarin.iOS 16.0.523 (Xcode 15), Xamarin.Forms 5.0.0.2612.
+successors:
+  - legacy: Xamarin.Android
+    successor: .NET for Android (.NET 6+)
+  - legacy: Xamarin.iOS
+    successor: .NET for iOS (.NET 6+)
+  - legacy: Xamarin.Mac
+    successor: .NET for Mac (.NET 6+)
+  - legacy: Xamarin.Forms
+    successor: .NET Multi-platform App UI (MAUI)
+migration: https://learn.microsoft.com/dotnet/maui/migration/
+status_page: null
+sla: null
+deprecated_operations: []

@@ -1,0 +1,26 @@
+# Xamarin
+
+> Xamarin was the Mono-based cross-platform mobile development framework company (founded 2011, backed by investors including Insight Partners), acquired by Microsoft in 2016. Microsoft retired the Xamarin SDKs on May 1, 2024; Xamarin.Forms was succeeded by .NET MAUI. Xamarin shipped developer tooling and SDK packages rather than a public web API.
+
+## Docs
+
+- [Xamarin documentation (Microsoft Learn)](https://learn.microsoft.com/en-us/xamarin/): Archived official docs for Xamarin.Android, Xamarin.iOS, Xamarin.Mac, and Xamarin.Forms
+- [Xamarin support policy](https://dotnet.microsoft.com/en-us/platform/support/policy/xamarin): End-of-support dates (2024-05-01) and final supported versions
+- [Upgrade from Xamarin to .NET MAUI](https://learn.microsoft.com/dotnet/maui/migration/): Official migration guidance
+- [Xamarin.Forms release notes](https://learn.microsoft.com/en-us/xamarin/xamarin-forms/release-notes/): Dated release history
+
+## Packages
+
+- [Xamarin.Forms on NuGet](https://www.nuget.org/packages/Xamarin.Forms): Final release 5.0.0.2662 (2024-03-25)
+- [Xamarin.Essentials on NuGet](https://www.nuget.org/packages/Xamarin.Essentials): Final release 1.8.1 (2023-12-15)
+- [Xamarin.CommunityToolkit on NuGet](https://www.nuget.org/packages/Xamarin.CommunityToolkit): Final release 2.0.6 (2023-05-01)
+
+## Source
+
+- [Xamarin GitHub organization](https://github.com/xamarin): Open source repos for the Xamarin SDKs and tooling
+- [Xamarin blog (archived)](https://devblogs.microsoft.com/xamarin/): Microsoft dev blog for Xamarin
+
+## Optional
+
+- [Xamarin product page](https://dotnet.microsoft.com/apps/xamarin): xamarin.com redirects here
+- [Microsoft Q&A — Xamarin](https://learn.microsoft.com/en-us/answers/tags/18/xamarin): Community support tag

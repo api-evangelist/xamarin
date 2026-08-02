@@ -1,0 +1,27 @@
+generated: '2026-07-21'
+method: searched
+source: https://learn.microsoft.com/en-us/xamarin/xamarin-forms/release-notes/
+scheme: semver-with-build (e.g. 5.0.0.2662)
+current_version: 5.0.0.2662
+status: retired
+notes: >-
+  Xamarin.Forms release notes are published on Microsoft Learn; the final
+  NuGet release of Xamarin.Forms (5.0.0.2662) shipped 2024-03-25, ahead of
+  the platform-wide end of support on 2024-05-01. No further entries will
+  be published; successor changelog lives with .NET MAUI.
+entries:
+  - version: Xamarin.Forms 5.0.0.2662
+    date: '2024-03-25'
+    breaking: false
+    highlights:
+      - Final service release of Xamarin.Forms published to NuGet before end of support.
+  - version: Xamarin.Essentials 1.8.1
+    date: '2023-12-15'
+    breaking: false
+    highlights:
+      - Final service release of Xamarin.Essentials on NuGet.
+  - version: Xamarin.CommunityToolkit 2.0.6
+    date: '2023-05-01'
+    breaking: false
+    highlights:
+      - Final release of the Xamarin Community Toolkit on NuGet.

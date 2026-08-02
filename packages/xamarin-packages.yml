@@ -1,0 +1,38 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.nuget.org/packages/Xamarin.Forms
+notes: >-
+  Xamarin's product was itself an SDK (the Mono-based cross-platform .NET
+  mobile frameworks), distributed first-party on NuGet by Microsoft/Xamarin.
+  Microsoft retired the Xamarin SDKs on 2024-05-01; the packages remain
+  published and listed on NuGet but receive no further support. Successor
+  packages ship as .NET MAUI / .NET for iOS/Android in the dotnet org.
+packages:
+  - language: csharp
+    registry: nuget
+    name: Xamarin.Forms
+    url: https://www.nuget.org/packages/Xamarin.Forms
+    install: dotnet add package Xamarin.Forms --version 5.0.0.2662
+    latest_version: 5.0.0.2662
+    published: '2024-03-25'
+    official: true
+    status: retired
+  - language: csharp
+    registry: nuget
+    name: Xamarin.Essentials
+    url: https://www.nuget.org/packages/Xamarin.Essentials
+    install: dotnet add package Xamarin.Essentials
+    latest_version: 1.8.1
+    published: '2023-12-15'
+    official: true
+    status: retired
+  - language: csharp
+    registry: nuget
+    name: Xamarin.CommunityToolkit
+    url: https://www.nuget.org/packages/Xamarin.CommunityToolkit
+    install: dotnet add package Xamarin.CommunityToolkit
+    latest_version: 2.0.6
+    published: '2023-05-01'
+    official: true
+    status: retired
+source_code: https://github.com/xamarin

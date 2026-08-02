@@ -1,8 +1,14 @@
 aid: xamarin
 name: Xamarin
-description: 'Xamarin is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: devops. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Xamarin was the San Francisco company behind the Mono-based cross-platform
+  mobile development framework, letting developers build native iOS, Android,
+  and Mac apps from a single C#/.NET codebase. Backed by investors including
+  Insight Partners, it was acquired by Microsoft in 2016. Microsoft retired
+  the Xamarin SDKs on May 1, 2024, with Xamarin.Forms succeeded by .NET MAUI.
+  Xamarin shipped developer tooling and SDK packages rather than a public web
+  API; its NuGet packages, docs, and GitHub organization remain its primary
+  artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/xamarin/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,29 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://avatars.githubusercontent.com/xamarin
 tags:
 - Company
 - Devops
+- Mobile
+- Cross-Platform
+- DotNet
+- SDK
+- Microsoft
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +47,31 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://xamarin.com/
+  url: https://xamarin.com/
+- type: Documentation
+  url: https://learn.microsoft.com/en-us/xamarin/
+- type: Blog
+  url: https://devblogs.microsoft.com/xamarin/
+- type: GitHubOrganization
+  url: https://github.com/xamarin
+- type: Support
+  url: https://learn.microsoft.com/en-us/answers/tags/18/xamarin
+- type: Packages
+  url: packages/xamarin-packages.yml
+- type: SDKs
+  url: packages/xamarin-packages.yml
+- type: Lifecycle
+  url: lifecycle/xamarin-lifecycle.yml
+- type: Deprecation
+  url: https://dotnet.microsoft.com/en-us/platform/support/policy/xamarin
+- type: ChangeLog
+  url: changelog/xamarin-changelog.yml
+- type: LLMsTxt
+  url: llms/xamarin-llms.txt
+- type: DomainSecurity
+  url: security/xamarin-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1
