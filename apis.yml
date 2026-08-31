@@ -44,10 +44,10 @@ modified: '2026-07-21'
 image: https://avatars.githubusercontent.com/xamarin
 tags:
 - Company
-- DevOps
+- Devops
 - Mobile
 - Cross-Platform
-- Dotnet
+- DotNet
 - SDK
 - Microsoft
 tags_raw:
@@ -65,6 +65,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/microsoft/
+  name: Microsoft
+  x-relationship: acquired
+  x-evidence: "Backed by investors including Insight Partners, it was acquired by Microsoft in 2016."
 - type: Website
   url: https://xamarin.com/
 - type: Documentation
