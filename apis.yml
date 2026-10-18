@@ -49,7 +49,7 @@ tags:
 - DevOps
 - Mobile
 - Cross-Platform
-- Dotnet
+- .NET
 - SDK
 - Microsoft
 tags_raw:
@@ -60,6 +60,7 @@ tags_raw:
 - DotNet
 - SDK
 - Microsoft
+- Dotnet
 apis: []
 maintainers:
 - FN: Kin Lane
